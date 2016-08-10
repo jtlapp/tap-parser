@@ -1,0 +1,77 @@
+[
+  [
+    "line",
+    "TAP version 13\n"
+  ],
+  [
+    "version",
+    13
+  ],
+  [
+    "line",
+    "not ok 1 should be equivalent\n"
+  ],
+  [
+    "line",
+    "1..1\n"
+  ],
+  [
+    "assert",
+    {
+      "ok": false,
+      "id": 1,
+      "name": "should be equivalent"
+    }
+  ],
+  [
+    "plan",
+    {
+      "start": 1,
+      "end": 1
+    }
+  ],
+  [
+    "line",
+    "# tests 1\n"
+  ],
+  [
+    "comment",
+    "# tests 1\n"
+  ],
+  [
+    "line",
+    "# pass  0\n"
+  ],
+  [
+    "comment",
+    "# pass  0\n"
+  ],
+  [
+    "line",
+    "# fail  1\n"
+  ],
+  [
+    "comment",
+    "# fail  1\n"
+  ],
+  [
+    "complete",
+    {
+      "ok": false,
+      "count": 1,
+      "pass": 0,
+      "fail": 1,
+      "plan": {
+        "start": 1,
+        "end": 1
+      },
+      "failures": [
+        {
+          "ok": false,
+          "id": 1,
+          "name": "should be equivalent"
+        }
+      ]
+    }
+  ]
+]

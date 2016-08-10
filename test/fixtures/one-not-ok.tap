@@ -1,0 +1,7 @@
+TAP version 13
+not ok 1 should be equivalent
+
+1..1
+# tests 1
+# pass  0
+# fail  1

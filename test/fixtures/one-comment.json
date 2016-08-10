@@ -1,0 +1,43 @@
+[
+  [
+    "line",
+    "TAP version 13\n"
+  ],
+  [
+    "version",
+    13
+  ],
+  [
+    "line",
+    "# just a comment\n"
+  ],
+  [
+    "comment",
+    "# just a comment\n"
+  ],
+  [
+    "line",
+    "1..0\n"
+  ],
+  [
+    "plan",
+    {
+      "start": 1,
+      "end": 0
+    }
+  ],
+  [
+    "complete",
+    {
+      "ok": true,
+      "count": 0,
+      "pass": 0,
+      "failures": [],
+      "plan": {
+        "start": 1,
+        "end": 0,
+        "skipAll": true
+      }
+    }
+  ]
+]
