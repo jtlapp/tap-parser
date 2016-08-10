@@ -35,12 +35,6 @@ testThrowingHandler(
   oneNotOkFile
 )
 
-testThrowingHandler(
-  'complete handler throws exception when ok',
-  'complete',
-  oneOkFile
-)
-
 function testThrowingHandler (testName, event, tapFile) {
   test(testName, function (t) {
     var writable = new stream.Writable()

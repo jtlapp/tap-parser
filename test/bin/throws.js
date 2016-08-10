@@ -3,7 +3,7 @@
 // uncomment the following line to demonstrate that test works
 // throw new Error('bad handler')
 
-var Parser = require('../')
+var Parser = require('../../')
 
 var ignore = [ 'pipe', 'unpipe', 'prefinish', 'finish', 'newListener' ]
 var fs = require('fs')
